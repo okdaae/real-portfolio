@@ -1,5 +1,8 @@
 *{margin: 0; padding: 0;
     font-family: 'Montserrat', sans-serif, 'Noto Sans KR', sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
     }
     /* reset-css */
     html{
@@ -14,6 +17,8 @@ a {
   input,
   textarea {
     font-size: 16px;
+    background-color: transparent;
+    border: 0;
   }
   button:focus,
   button:active,
@@ -522,11 +527,13 @@ p{
         height: 100vh;
     }
     .textBox{
+        display: flex;
+        justify-content: space-around;
         background: #2F2F8A;
         box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.25);
         border-radius: 16px;
         padding: 32px 48px;
-        width: 471px;
+        width: 75%;
         float: right;
         position: relative;
     }
@@ -535,14 +542,27 @@ p{
         height: 700px;
     }
     .text__box{
-        padding-bottom: 32px;
+        padding-bottom: 25px;
+
 
 
     }
     .textbox__title{
         color: #ffff;
         font-size: 16px;
-        padding-bottom: 16px;
+        /
+    }
+    .text__box__left{
+        /* padding-left: 10%; */
+    }
+    .text__box__left p{
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 24px;
+        
+    }
+    .text__box__desc{
+        padding-bottom: 20px;
     }
     input{
         background: rgba(235, 250, 255, 0.3);
@@ -550,6 +570,7 @@ p{
         border-radius: 4.04135px;
         width: 363px;
         padding: 10px;
+        color:#FFFFFF4D 30%;
         
     }
     input:hover{
@@ -562,6 +583,22 @@ p{
     .textbox__desc{
         height: 129px;
     }
+    .textbox__icon-list .phoneNumber{
+        display: flex;
+        padding-bottom: 20px;
+    }
+    .textbox__icon-list .emmailAdress{
+        display: flex;
+    }
+    .textbox__item{
+        padding: 10px;
+        background: rgba(255, 255, 255, 0.3);
+        border-radius: 30px;
+        margin-right: 16px;
+    }
+    .textbox__item i{
+        color: white;
+    }
     input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
         color: rgb(255, 255, 255);
         opacity: 1; /* Firefox */
@@ -572,10 +609,16 @@ p{
     }
     .sitting{
         position: absolute;
-        top: 338%;
-        right: 31%;
+        top: 0;
+        left: 0;
         z-index: 1;
         animation: circlemove 2.5s linear infinite;
+    }
+    .textbox__btn{
+        background: linear-gradient(105.95deg, #C961DE 24.79%, #2954A3 71.87%);
+        box-shadow: 0px 10px 20px rgba(7, 7, 26, 0.15);
+        border-radius: 10px;
+        padding: 9.5px 24px ;
     }
     @keyframes circlemove{
          0%,100%{ transform:translate(-50%,-50%); } 50%{ transform:translate(-50%,-60%); } }
@@ -617,8 +660,9 @@ p{
       }
 #footer{
     width: 100%;
-    height: 300px;
+    height: 235px;
     background-color: #1C1C65;
+    position: relative;
 }
 .footer__container{
     width: 1200px;
@@ -629,12 +673,15 @@ p{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 50px;
+    /* gap: 50px
+px
+; */
     position: relative;
-    padding: 50px 0 50px 0;
+    padding: 20px 0;
+    line-height: 2;
 
 }
-.footer__detail::after{
+/* .footer__detail::after{
 
 position: absolute;
 content: '';
@@ -643,7 +690,7 @@ height: 2px;
 background-color: rgba(255, 255, 255, 0.15);
 bottom: 0;
 left: 0;
-}
+} */
 
 .footer__detail__item{
     display: flex;
@@ -661,7 +708,7 @@ left: 0;
     line-height: 2;
 }
 .footer__icon__list{
-    padding: 50px 0 0 0 ;
+    /* padding: 36px 0 0 0 ; */
     display: flex;
     justify-content: center;
 }
@@ -694,4 +741,9 @@ left: 0;
     font-size: 15px;
     font-weight: 500;
     padding: 30px 39px 0 0;
+}
+.spacePink{
+    position: absolute;
+    top: -179px;
+    left: 38px;
 }
