@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -9,7 +9,7 @@
     <meta name="author" content="Daae" />
     <link rel="icon" href="./images/favicon.png" />
     <link rel="stylesheet" href="./style.css" />
-    <!---------------Montrant google fonts-->
+    <!--Montrant google fonts-->
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;900&display=swap"
       rel="stylesheet"
@@ -24,308 +24,322 @@
     <script src="https://kit.fontawesome.com/f8ec87875e.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    <nav id="navbar" class="navbar--dark">
-      <!-- <img src="./images/logo.png" alt="" /> -->
-      <ul class navbar__menu>
-        <li><a href="#hero">Home</a></li>
-        <li><a href="#about">About me</a></li>
-        <li><a href="#work">Portfolio</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-      <a href="" class="btn">OKDAAE</a>
-    </nav>
-    <section id="hero">
-      <img src="./images/triangle-top.png" alt="" class="triangle1" />
-      <img src="./images/triangle-left.png" alt="" class="triangle2" />
-      <img src="./images/circle.png" alt="" class="circle" />
-      <img src="./images/Code_Editor.png" alt="" class="code" />
+    <header class="header">
+      <h1 class="logo"><a href="#hero" class="btn">OKDAAE</a></h1>
+      <nav class="header-nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#hero">Home</a></li>
+          <li class="nav-item"><a href="#about">About me</a></li>
+          <li class="nav-item"><a href="#work">Portfolio</a></li>
+          <li class="nav-item"><a href="#contact">Contact</a></li>
+        </ul>
+        
+      </nav>
+    </header>
+    <main class="main">
+      <section id="hero">
+        <img src="./images/triangle-top.png" class="triangle1" alt="triangle1" />
+        <img src="./images/triangle-left.png" alt="triangle2" class="triangle2" />
+        <img src="./images/circle.png" alt="circle" class="circle" />
+        <img src="./images/Code_Editor.png" alt="code" class="code" />
+        
+  
+        <div class="row">
+          <div class="col-1">
+            <img src="./images/Rectangle7.png" alt="rectangle"/>
+            <img src="./images/elements.png" class="elements" alt="elements"/>
+          </div>
+          <div class="col-2">
+            <h1>
+              HELLO THERE <br /><span>I'm Web-frontend<br /></span>Developer
+            </h1>
+            <p>#열정 #능동 #성실 #도전적인</p>
+            <img src="./images/KEEPSMILING1.png" alt="smile" class="sm" />
+            <a href="#about" class="btn">More</a>
+            <a href="#contact">or Contact</a>
+          </div>
+        </div>
+      </section>
       
-
-      <div class="row">
-        <div class="col-1">
-          <img src="./images/Rectangle 7.png" alt="" />
-          <img src="./images/elements.png" alt="" class="elements" />
-        </div>
-        <div class="col-2">
-          <h1>
-            HELLO THERE <br /><span>I'm Web-frontend<br /></span>Developer
-          </h1>
-          <p>#열정 #능동 #성실 #도전적인</p>
-          <img src="./images/KEEPSMILING 1.png" alt="" class="sm" />
-          <a href="#about" class="btn">More</a> <a href="#contact">or Contact</a>
-        </div>
-      </div>
-    </section>
-    
-   <div class="rooling">
-  <div class="rooling__inner">
-    <ul class="rooling__list">
-      <li class="rooling__item">
-        "About Me"
-        " >> "
-        "About Me"
-        " >> "
-        "About Me"
-        " >> "
-        "About Me"
-        " >> "
-        "About Me"
-        " >> "
-        "About Me"
-        " >> "
-        "About Me"
-        " >> "
-        "About Me"
-        " >> "
-        "About Me"
-        " >> "
-        "About Me"
-        " >> "
-        "About Me"
-        " >> "
-        "About Me"
-        " >> "
-        "About Me"
-        " >> "
-        "About Me"
-        " >> "
-        "About Me"
-        " >> "
-        "About Me"
-        " >> "
-        "About Me"
-        " >> "
-        "About Me"
-        " >> "
-        "About Me"
-        " >> "
-      </li>
-    </ul>
-  </div>
-   </div>
-    <!-- About -->
-    <section id="about" class="section section__container">
-      <img src="images/girl.png" alt="" />
-      <h1>About me</h1>
-      <div class="about__text">
-        <p>
-        안녕하세요. 웹으로 소통하는 개발자 옥다애입니다.<br />
-        저만의 아이디어를 가지고 기획, 개발하기 위해 웹을 공부하게 되었습니다.<br>
-        코드를 한줄 한줄 써내려가며 변화되어가는 웹사이트를 보는것이 흥미로워서
-        <span>프론트엔드 개발자</span>를 목표를 하였습니다.<br>
-        저만의 로드맵을 그려내며 유튜브를 스승삼아서 열심히 공부하는중입니다.<br>
-        좋은 코드를 통해 재사용 가능한 모듈을 가능할 수 있게 항상 노력합니다.
-        더 노력하는 개발자 옥다애입니다.<br> 
-        감사합니다.:)
-      </p>
-      </div>
-
-
-      <div class="about__school">
-        <div class="job">
-          <img src="" alt="" class="school__Logo" />
-          <p class="job__name"></p>
-          <p class="job__period"></p>
-        </div>
-        <div class="job"></div>
-      </div>
-    </section>
-    <!-- Skils -->
-    <section id="skils" class="section">
-      <div class="section__container">
-        <h1>Skills</h1>
-        <h2>Skills & Tool</h2>
-        <p>
-         
+     <div class="rooling">
+    <div class="rooling__inner">
+      <ul class="rooling__list">
+        <li class="rooling__item">
+          "About Me"
+          " >> "
+          "About Me"
+          " >> "
+          "About Me"
+          " >> "
+          "About Me"
+          " >> "
+          "About Me"
+          " >> "
+          "About Me"
+          " >> "
+          "About Me"
+          " >> "
+          "About Me"
+          " >> "
+          "About Me"
+          " >> "
+          "About Me"
+          " >> "
+          "About Me"
+          " >> "
+          "About Me"
+          " >> "
+          "About Me"
+          " >> "
+          "About Me"
+          " >> "
+          "About Me"
+          " >> "
+          "About Me"
+          " >> "
+          "About Me"
+          " >> "
+          "About Me"
+          " >> "
+          "About Me"
+          " >> "
+        </li>
+      </ul>
+    </div>
+     </div>
+      <!-- About -->
+      <section id="about" class="section section__container">
+        <img src="images/girl.png" alt="girl" />
+        <h1>About me</h1>
+        <div class="about__text">
+          <p>
+          안녕하세요. 웹으로 소통하는 개발자 옥다애입니다.<br />
+          저만의 아이디어를 가지고 기획, 개발하기 위해 웹을 공부하게 되었습니다.<br>
+          코드를 한줄 한줄 써내려가며 변화되어가는 웹사이트를 보는것이 흥미로워서
+          <span>프론트엔드 개발자</span>를 목표를 하였습니다.<br>
+          저만의 로드맵을 그려내며 유튜브를 스승삼아서 열심히 공부하는중입니다.<br>
+          좋은 코드를 통해 재사용 가능한 모듈을 가능할 수 있게 항상 노력합니다.
+          더 노력하는 개발자 옥다애입니다.<br> 
+          감사합니다.:)
         </p>
-        <div class="skillset">
-          <div class="skillset__left">
-            <h3 class="skillset__title">Skills</h3>
-            <div class="skill">
-              <div class="skill__descripton">
-                <span>HTML / CSS</span>
-                <span>95%</span>
-              </div>
-              <!--prograabar 만들기-->
-              <div class="skill__bar">
-                <div class="skill__value" style="width: 99%"></div>
-              </div>
-              <!-- prograssbar -->
-            </div>
-            <div class="skill">
-              <div class="skill__descripton">
-                <span>SASS / SCSS</span>
-                <span>70%</span>
-              </div>
-              <!--prograabar 만들기-->
-              <div class="skill__bar">
-                <div class="skill__value" style="width: 70%"></div>
-              </div>
-              <!-- prograssbar -->
-            </div>
-            <div class="skill">
-              <div class="skill__descripton">
-                <span>JavaScript</span>
-                <span>70%</span>
-              </div>
-              <!--prograabar 만들기-->
-              <div class="skill__bar">
-                <div class="skill__value" style="width: 70%"></div>
-              </div>
-              <!-- prograssbar -->
-            </div>
-            <div class="skill">
-              <div class="skill__descripton">
-                <span>React</span>
-                <span>50%</span>
-              </div>
-              <!--prograabar 만들기-->
-              <div class="skill__bar">
-                <div class="skill__value" style="width: 50%"></div>
-              </div>
-              <!-- prograssbar -->
-            </div>
-            <div class="skill">
-              <div class="skill__descripton">
-                <span>Git</span>
-                <span>80%</span>
-              </div>
-              <!--prograabar 만들기-->
-              <div class="skill__bar">
-                <div class="skill__value" style="width: 80%"></div>
-              </div>
-              <!-- prograssbar -->
-            </div>
-          </div>
         </div>
-      </div>
-    </section>
-    <!-- Work -->
-    <section id="work" class="section">
-      <div class="section__container">
+  
+  
+        <div class="about__school">
+          <div class="job">
+            <!-- <img src="" alt="" class="school__Logo" /> -->
+            <p class="job__name"></p>
+            <p class="job__period"></p>
+          </div>
+          <div class="job"></div>
+        </div>
+      </section>
+      <!-- Skils -->
+      <section id="skils" class="section">
         <div class="section__container">
-          <h1>My work</h1>
-          <h3>Projects</h3>
-          <div class="work__projects">
-            <a href="http://3.37.87.185:8000/" class="project" data-type="mobile">
-              
-              <img class="project__img" src="./images/camppang.jpg"
-              alt="CAMPPANG"" alt="" />
-              <div class="project__description">
-                <h3>캠팡</h3>
-                <span>팀프로젝트.</span>
+          <h1>Skills</h1>
+          <h2>Skills & Tool</h2>
+          <p>
+           
+          </p>
+          <div class="skillset">
+            <div class="skillset__left">
+              <h3 class="skillset__title">Skills</h3>
+              <div class="skill">
+                <div class="skill__descripton">
+                  <span>HTML / CSS</span>
+                  <span>95%</span>
+                </div>
+                <!--prograabar 만들기-->
+                <div class="skill__bar">
+                  <div class="skill__value" style="width: 99%"></div>
+                </div>
+                <!-- prograssbar -->
               </div>
-            </a>
-            <a href="https://github.com/okdaae/Project_MBTingI-daae" class="project" data-type="mobile">
-              
-              <img class="project__img" src="./images/love-mattching.png"
-              alt="Youtube"" alt="" />
-              <div class="project__description">
-                <h3>MBtingI</h3>
-                <span>팀프로젝트.</span>
+              <div class="skill">
+                <div class="skill__descripton">
+                  <span>SASS / SCSS</span>
+                  <span>70%</span>
+                </div>
+                <!--prograabar 만들기-->
+                <div class="skill__bar">
+                  <div class="skill__value" style="width: 70%"></div>
+                </div>
+                <!-- prograssbar -->
               </div>
-            </a>
-            <a href="https://okdaae.github.io/real-portfolio/" class="project" data-type="">
-            
-          <img class="project__img" src="./images/Firefox Desktop - Light.png" alt="">
-              <div class="project__description">
-                <h3>Project</h3>
-                <span>개인 포토폴리오</span>
+              <div class="skill">
+                <div class="skill__descripton">
+                  <span>JavaScript</span>
+                  <span>70%</span>
+                </div>
+                <!--prograabar 만들기-->
+                <div class="skill__bar">
+                  <div class="skill__value" style="width: 70%"></div>
+                </div>
+                <!-- prograssbar -->
               </div>
-            </a>
-            <a href="https://okdaae.github.io/Deliver/" class="project" data-type="">
-            
-              <img class="project__img" src="./images/PixelBook Go.png"
-              alt="Youtube"" alt="" />
-              <div class="project__description">
-                <h3>Project</h3>
-                <span>Deliver</span>
+              <div class="skill">
+                <div class="skill__descripton">
+                  <span>React</span>
+                  <span>50%</span>
+                </div>
+                <!--prograabar 만들기-->
+                <div class="skill__bar">
+                  <div class="skill__value" style="width: 50%"></div>
+                </div>
+                <!-- prograssbar -->
               </div>
-            </a>
-            
-            <a href="https://okdaae.github.io/covid-19/" class="project" data-type="mobile">
-             
-              <img class="project__img" src="./images/iPad 11 pro mockup-Vertical.png"
-              alt="Youtube"" alt="" />
-              <div class="project__description">
-                <h3>Project</h3>
-                <span>covid-19</span>
+              <div class="skill">
+                <div class="skill__descripton">
+                  <span>Git</span>
+                  <span>80%</span>
+                </div>
+                <!--prograabar 만들기-->
+                <div class="skill__bar">
+                  <div class="skill__value" style="width: 80%"></div>
+                </div>
+                <!-- prograssbar -->
               </div>
-            </a>
-
-            <a href="https://okdaae.github.io/food/" class="project" data-type="">
-              <img class="project__img" src="./images/project_7.png"
-              alt="Youtube"" alt="" />
-              <div class="project__description">
-                <h3>Project</h3>
-                <span>모바일 반응형 사이트</span>
-              </div>
-            </a>
-            <a href="https://okdaae.github.io/Webstandard/" class="project" data-type="mobile">
-              
-              <img class="project__img" src="./images/project_5.png"
-              alt="Youtube"" alt="" />
-              <div class="project__description">
-                <h3>Project</h3>
-                <span>webstandrad</span>
-              </div>
-            </a>
-            <a href="https://okdaae.github.io/project_2/" class="project" data-type="mobile">
-              
-              <img class="project__img" src="./images/project_6.png"
-              alt="Youtube"" alt="" />
-              <div class="project__description">
-                <h3>Project</h3>
-                <span>부트스트랩으로 만든 웹사이트</span>
-              </div>
-            </a>
-
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-
-    <!--contact me -->
-    <section id="contact">
-      <div class="container">
-        <div class="textBox">
-          <div class="text__box__left">
+      </section>
+      <!-- Work -->
+      <section id="work" class="section">
+        <div class="section__container">
+          <div class="section__container">
+            <h1>My work</h1>
+            <h3>Projects</h3>
+            <div class="work__projects">
+              <a href="https://github.com/okdaae/Frontend-Project" class="project" data-type="mobile">
+                
+                <img class="project__img" src="./images/camppang.jpg"
+                 alt="camppang-gitsite" />
+                <div class="project__description">
+                  <h3>캠팡</h3>
+                  <span>팀프로젝트.</span>
+                </div>
+              </a>
+              <a href="https://github.com/okdaae/Project_MBTingI-daae" class="project" data-type="mobile">
+                
+                <img class="project__img" src="./images/love-mattching.png"
+                 alt="mbtingi-gitsite" />
+                <div class="project__description">
+                  <h3>MBtingI</h3>
+                  <span>팀프로젝트.</span>
+                </div>
+              </a>
+              <a href="https://okdaae.github.io/real-portfolio/" class="project" data-type="text">
+              
+            <img class="project__img" src="./images/FirefoxDesktop-Light.png" alt="real myportfolio">
+                <div class="project__description">
+                  <h3>Project</h3>
+                  <span>개인 포토폴리오</span>
+                </div>
+              </a>
+              <a href="https://okdaae.github.io/Deliver/" class="project" data-type="text">
+              
+                <img class="project__img" src="./images/PixelBookGo.png"
+                alt="Deliver" />
+                <div class="project__description">
+                  <h3>Project</h3>
+                  <span>Deliver</span>
+                </div>
+              </a>
+              
+              <a href="https://okdaae.github.io/covid-19/" class="project" data-type="mobile">
+               
+                <img class="project__img" src="./images/iPad11pro-mockup-Vertical.png"
+                alt="covid-19" />
+                <div class="project__description">
+                  <h3>Project</h3>
+                  <span>covid-19</span>
+                </div>
+              </a>
+  
+              <a href="https://okdaae.github.io/food/" class="project" data-type="">
+                <img class="project__img" src="./images/project_7.png"
+                 alt="food website" />
+                <div class="project__description">
+                  <h3>Project</h3>
+                  <span>모바일 반응형 사이트</span>
+                </div>
+              </a>
+              <a href="https://okdaae.github.io/Webstandard/" class="project" data-type="mobile">
+                
+                <img class="project__img" src="./images/project_5.png"
+                alt="webstandrad website" />
+                <div class="project__description">
+                  <h3>Project</h3>
+                  <span>webstandrad</span>
+                </div>
+              </a>
+              <a href="https://okdaae.github.io/project_2/" class="project" data-type="mobile">
+                
+                <img class="project__img" src="./images/project_6.png"
+            alt="okbug website" />
+                <div class="project__description">
+                  <h3>Project</h3>
+                  <span>부트스트랩으로 만든 웹사이트</span>
+                </div>
+              </a>
+  
+            </div>
+          </div>
+        </div>
+      </section>
+  
+      <!--contact me -->
+      <section id="contact">
+        <div class="container">
+          <div class="textBox">
+            <div class="text__box__left">
+              <div class="text__box">
+                <h2>저는..</h2>
+                <div class="textbox__title"></div>
+                <p class="text__box__desc"><span>웹표준과 웹접근성</span>을 생각하며,<br>기본을 중요시하게 생각합니다.<br>동적인 웹에니메이션 만드는것을 좋아합니다.<br><span>구조화된 컴포넌트</span>를 만들기위해 노력합니다.<br></p>
+                <p>아직 많이 부족하지만<br>그렇기에 더 열심히 하겠습니다.<br>
+                앞으로 멋진<span> 프론트엔드 개발자</span>로 성장해 나가겠습니다.</p>
+             </div>
+             <div class="textbox__icon-list">
+               <div class="phoneNumber">
+             <button class="textbox__item"><i class="fa-solid fa-phone"></i></button>
+               <p>010 8689 5012</p>
+              </div>
+               <div class="emmailAdress">
+              <button class="textbox__item"><i class="fa-solid fa-envelope-open"></i></button>
+               <p>dhrekdo5@kakao.com</p>
+               
+              </div>
+             </div>
+             </div>
+           <div class="text__box__right">
             <div class="text__box">
-              <h2>Get in touch</h2>
+              <h2>연락주세요!</h2>
               <div class="textbox__title"></div>
-              <p class="text__box__desc">I’m very approachable and<br> would love to speak to you.<br> Feel free to call, send me an<br> email . Follow me in social<br> media or simply complete<br> the enquiry form.</p>
+              <label for="user-name"><input type="text" name="name" id="user-name" placeholder="Name"></label>
+            </div>
+            <div class="text__box">
+              <div class="textbox__title"></div>
+             <label for="email">
+              <input type="text" name="name" id="email" placeholder="Email Adress">
+             </label>
+            </div>
+            <div class="text__box">
+              <div class="textbox__title"></div>
+             <label for="subject"> <input type="text" name="name" id="subject" placeholder="subject"></label>
+            </div>
+            <div class="text__box">
+              <div class="textbox__title"></div>
+             <label for="message"> <input type="text" name="name" id="message" placeholder="Message..." class="textbox__desc"></label>
+            </div>
+            <a href="https://mail.naver.com/" class="textbox__btn" aria-label="mailto">메일 보내기</a>
            </div>
-           <div class="textbox__icon-list">
-             <div class="phoneNumber">
-             <a href="#"><button class="textbox__item"><i class="fa-solid fa-phone"></i></button></a>
-             <p>010 8689 5012</p></div>
-             <div class="emmailAdress">
-             <a href="#"><button class="textbox__item"><i class="fa-solid fa-envelope-open"></i></button></a>
-             <p>dhrekdo5@kakao.com</p></div>
-           </div>
-           </div>
-         <div class="text__box__right">
-          <div class="text__box">
-            <h2>Send me a message</h2>
-            <div class="textbox__title"></div>
-            <input type="text" name="name" id="" placeholder="Name">
+          <img src="images/sitting__girl.png" alt="sitting-girl" class="sitting">
           </div>
-          <div class="text__box">
-            <div class="textbox__title"></div>
-            <input type="text" name="name" id="" placeholder="Email Adress">
           </div>
-          <div class="text__box">
-            <div class="textbox__title"></div>
-            <input type="text" name="name" id="" placeholder="subject">
-          </div>
-          <div class="text__box">
-            <div class="textbox__title"></div>
-            <input type="text" name="name" id="" placeholder="Message..." class="textbox__desc">
-          </div>
-          <a href="#" class="textbox__btn">Send message</a>
-         </div>
-        <img src="images/sitting__girl.png" alt="" class="sitting">
-    </section>
+      </section>
+    </main>
     <footer id="footer">
       <div class="footer__container">
         <ul class="footer__detail">
@@ -336,17 +350,24 @@
         </ul>
         <div class="footer__icon__list">
           <div class="footer__icon__item">
-            <img src="./images/facebook__icon.png" alt="">
+            <img src="./images/facebook__icon.png" alt="facebook icon">
           </div>
           <div class="footer__icon__item">
            <a href="https://github.com/okdaae"> <i class="fa-brands fa-github-alt facebook"></i></a>
           </div>
         </div>
       </div>
-      <strong class="footer__etc">2022 DAAE coding - All rights reserved</strong>
+      <strong class="footer__etc">2023 DAAE coding - All rights reserved</strong>
+      <p class="html-blue">
+        <a href="http://validator.kldp.org/check?uri=referer"
+          onclick="this.href=this.href.replace(/referer$/,encodeURIComponent(document.URL))"><img
+          src="./images/html5-blue.png" alt="Valid HTML 5" height="15" width="80"></a>
+      </p>
       <div class="spacePink">
-        <img src="./images/space__pink.png" alt="">
+        <img src="./images/space__pink.png" alt="pink-space-icon">
       </div>
+    
     </footer>
+    <script src="./main.js"></script>
   </body>
 </html>
